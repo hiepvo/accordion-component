@@ -49,16 +49,16 @@ html {
   font-size: 1.4rem;
   background: #F5FAFA;
   color: #6D929B;
-  height: 0;
+  max-height: 0;
   padding: 0 2rem;
   overflow: hidden;
-  -moz-transition: all 1s;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -moz-transition: max-height 1s;
+  -webkit-transition: max-height 1s;
+  transition: max-height 1s;
 }
 
 .accordion [type="checkbox"]:checked ~ label ~ .content {
-  height: 30rem;
+  max-height: 30rem;
 }
 
 .content h3 {
