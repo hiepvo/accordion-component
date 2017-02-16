@@ -6,7 +6,9 @@ html {
 .accordion {
   border: 1px solid #6D929B;
   border-radius: 1rem;
-  width: 70rem;
+  width: 90%;
+  max-width: 40rem;
+  margin: 0 auto;
   padding: 1rem;
 }
 
